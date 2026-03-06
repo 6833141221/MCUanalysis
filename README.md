@@ -20,7 +20,7 @@
 * **Dynamic Extraction:** ใช้ 'string_to_array' กับ 'unnest' เพื่อแยกรายชื่อผู้กำกับและโปรดิวเซอร์ที่อยู๋รวมกันมาให้เเยกชื่อคนทีละคนออกมาเป็นรายบรรทัด
 * **Casting & Transformation:** ใช้ 'USING col::type' เพื่อแปลงข้อมูลจาก TEXT ให้เป็น NUMERIC/INTEGER
 
-> 📂 *โค้ด SQL:* `SQLcode.sql`
+> 📂 *โค้ด SQL:* `mcu.sql`
 
 ## 3.Interactive Dashboard & Insights
 ข้อมูลที่ผ่านการ Clean แล้วถูกนำไป Visualize ด้วย **Tableau** เพื่อหา insight โดย Dashboard นี้ถูกออกแบบมาให้สามารถดูภาพรวมและเจาะลึกข้อมูลรายภาพยนตร์ได้
@@ -31,3 +31,5 @@
 * **Financial Performance:** Phase 3 เป็นช่วงที่ทำกำไร (Profit) สูงสุดอย่างก้าวกระโดดเมื่อเทียบกับ Phase อื่นๆ
 * **Critical Success:** ภาพยนตร์ที่มีคะแนนจากฝั่ง Audience สูงมักจะมีรายได้แบบ Domestic Box Office สูงตามกัน
 * **Director Impact:** สามารถระบุผู้กำกับที่คุมงบประมาณ (Budget) ได้อย่างมีประสิทธิภาพและสร้างผลตอบแทนได้ดีที่สุด
+
+> 🔗 [ลิ้ง tableau ครับ](https://public.tableau.com/app/profile/narawin.chotivit/viz/MCUanalysis_17728150843420/Dashboard1?publish=yes)
