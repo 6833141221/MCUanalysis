@@ -25,6 +25,8 @@
 ## 3.Interactive Dashboard & Insights
 ข้อมูลที่ผ่านการ Clean แล้วถูกนำไป Visualize ด้วย **Tableau** เพื่อหา insight โดย Dashboard นี้ถูกออกแบบมาให้สามารถดูภาพรวมและเจาะลึกข้อมูลรายภาพยนตร์ได้
 
+![MCU Analysis Dashboard](Dashboard.png)
+
 ### Key Insights :
 * **Financial Performance:** Phase 3 เป็นช่วงที่ทำกำไร (Profit) สูงสุดอย่างก้าวกระโดดเมื่อเทียบกับ Phase อื่นๆ
 * **Critical Success:** ภาพยนตร์ที่มีคะแนนจากฝั่ง Audience สูงมักจะมีรายได้แบบ Domestic Box Office สูงตามกัน
