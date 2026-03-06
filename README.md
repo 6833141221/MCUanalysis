@@ -20,7 +20,7 @@
 * **Dynamic Extraction:** ใช้ 'string_to_array' กับ 'unnest' เพื่อแยกรายชื่อผู้กำกับและโปรดิวเซอร์ที่อยู๋รวมกันมาให้เเยกชื่อคนทีละคนออกมาเป็นรายบรรทัด
 * **Casting & Transformation:** ใช้ 'USING col::type' เพื่อแปลงข้อมูลจาก TEXT ให้เป็น NUMERIC/INTEGER
 
-> 📂 *โค้ด SQL:* `mcu.sql`
+> 📂 *โค้ด SQL:* 'mcu.sql'
 
 ## 3.Interactive Dashboard & Insights
 ข้อมูลที่ผ่านการ Clean แล้วถูกนำไป Visualize ด้วย **Tableau** เพื่อหา insight โดย Dashboard นี้ถูกออกแบบมาให้สามารถดูภาพรวมและเจาะลึกข้อมูลรายภาพยนตร์ได้
