@@ -8,11 +8,11 @@
 ![MCU ER Diagram](Er_Diagram.png)
 
 ## Key Design Features:
- **Many-to-Many Relationship:** ใช้ตาราง 'movie_crew' เพื่อเชื่อมโยงระหว่างภาพยนตร์และทีมงาน(director/producer)
- **One-to-One Relationship:** แยกตาราง 'finance' และ 'score' ที่เชื่อมกับ ตาราง 'movie'
- **Data Constraints:** มีการใช้ 'Primary Key', 'Foreign Key'
+1. **Many-to-Many Relationship:** ใช้ตาราง 'movie_crew' เพื่อเชื่อมโยงระหว่างภาพยนตร์และทีมงาน(director/producer)
+2. **One-to-One Relationship:** แยกตาราง 'finance' และ 'score' ที่เชื่อมกับ ตาราง 'movie'
+3. **Data Constraints:** มีการใช้ 'Primary Key', 'Foreign Key'
 
-2. **Data Pipeline & SQL Techniques**
+2. **Data Pipeline & SQL Techniques:**
 ผมใช้ SQL ในการจัดการข้อมูลตั้งแต่ขั้นตอน Staging ไปจนถึงขั้นตอนสุดท้าย โดยมีเทคนิคที่สำคัญดังนี้:
 
 1. **Data Cleaning:** ใช้ 'REPLACE' และ 'TRIM' เพื่อกรองชื่อบุคคลและสัญลักษณ์พิเศษ
