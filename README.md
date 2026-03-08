@@ -12,12 +12,12 @@
 2. **One-to-One Relationship:** แยกตาราง 'finance' และ 'score' ที่เชื่อมกับ ตาราง 'movie'
 3. **Data Constraints:** มีการใช้ 'Primary Key', 'Foreign Key'
 
-## 2.Data Pipeline & SQL Techniques
+2. **Data Pipeline & SQL Techniques**
 ผมใช้ SQL ในการจัดการข้อมูลตั้งแต่ขั้นตอน Staging ไปจนถึงขั้นตอนสุดท้าย โดยมีเทคนิคที่สำคัญดังนี้:
 
-- **Data Cleaning:** ใช้ 'REPLACE' และ 'TRIM' เพื่อกรองชื่อบุคคลและสัญลักษณ์พิเศษ
-- **Dynamic Extraction:** ใช้ 'string_to_array' กับ 'unnest' เพื่อแยกรายชื่อผู้กำกับและโปรดิวเซอร์ที่อยู๋รวมกันมาให้เเยกชื่อคนทีละคนออกมาเป็นรายบรรทัด
-- **Casting & Transformation:** ใช้ 'USING col::type' เพื่อแปลงข้อมูลจาก TEXT ให้เป็น NUMERIC/INTEGER
+1. **Data Cleaning:** ใช้ 'REPLACE' และ 'TRIM' เพื่อกรองชื่อบุคคลและสัญลักษณ์พิเศษ
+2. **Dynamic Extraction:** ใช้ 'string_to_array' กับ 'unnest' เพื่อแยกรายชื่อผู้กำกับและโปรดิวเซอร์ที่อยู๋รวมกันมาให้เเยกชื่อคนทีละคนออกมาเป็นรายบรรทัด
+3. **Casting & Transformation:** ใช้ 'USING col::type' เพื่อแปลงข้อมูลจาก TEXT ให้เป็น NUMERIC/INTEGER
 
 > 📂 *โค้ด SQL:* 'mcu.sql'
 
