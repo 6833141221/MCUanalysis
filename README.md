@@ -12,7 +12,7 @@
 - **Data Cleaning** ใช้ 'replace' และ 'trim' เพื่อกรองชื่อบุคคลและสัญลักษณ์พิเศษ
 - **Dynamic Extraction** ใช้ 'string_to_array' กับ 'unnest' เพื่อแยกรายชื่อผู้กำกับและโปรดิวเซอร์ที่อยู๋รวมกันมาให้เเยกชื่อคนทีละคนออกมาเป็นรายบรรทัด
 
-> 📂 *โค้ด SQL:* ![MCU sql](mcu.sql)
+> 📂 **โค้ด SQL:** [ดูไฟล์ mcu.sql ได้ที่นี่](./mcu.sql)
 
 3.**Interactive Dashboard and Insights**
 - ข้อมูลที่ผ่านการ cleansing แล้วนำไป Visualize ด้วย โปรเเกรม **Tableau** สร้าง dashboard เพื่อดูภาพรวมและเจาะลึกข้อมูลรายภาพยนตร์ได้
