@@ -7,7 +7,7 @@
 
 ![MCU ER Diagram](Er_Diagram.png)
 
-### Key Design Features:
+## Key Design Features:
 - **Many-to-Many Relationship:** ใช้ตาราง 'movie_crew' เพื่อเชื่อมโยงระหว่างภาพยนตร์และทีมงาน(director/producer)
 - **One-to-One Relationship:** แยกตาราง 'finance' และ 'score' ที่เชื่อมกับ ตาราง 'movie'
 - **Data Constraints:** มีการใช้ 'Primary Key', 'Foreign Key'
