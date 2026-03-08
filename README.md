@@ -8,14 +8,14 @@
 ![MCU ER Diagram](Er_Diagram.png)
 
 2.**Data Pipeline and SQL Techniques**
-ผมใช้ SQL ในการจัดการข้อมูลตั้งแต่ขั้นตอน Staging ไปจนถึงขั้นตอนสุดท้าย โดยมีเทคนิคที่สำคัญดังนี้:
+- ผมใช้ SQL ในการจัดการข้อมูลตั้งแต่ขั้นตอน Staging ไปจนถึงขั้นตอนสุดท้าย โดยมีเทคนิคที่สำคัญดังนี้:
  -**Data Cleaning** ใช้ 'replace' และ 'trim' เพื่อกรองชื่อบุคคลและสัญลักษณ์พิเศษ
  -**Dynamic Extraction** ใช้ 'string_to_array' กับ 'unnest' เพื่อแยกรายชื่อผู้กำกับและโปรดิวเซอร์ที่อยู๋รวมกันมาให้เเยกชื่อคนทีละคนออกมาเป็นรายบรรทัด
 
 > 📂 *โค้ด SQL:* 'mcu.sql'
 
 3.**Interactive Dashboard and Insights**
-ข้อมูลที่ผ่านการ cleansing แล้วนำไป Visualize ด้วย โปรเเกรม **Tableau** สร้าง dashboard เพื่อดูภาพรวมและเจาะลึกข้อมูลรายภาพยนตร์ได้
+- ข้อมูลที่ผ่านการ cleansing แล้วนำไป Visualize ด้วย โปรเเกรม **Tableau** สร้าง dashboard เพื่อดูภาพรวมและเจาะลึกข้อมูลรายภาพยนตร์ได้
 
 ![MCU Analysis Dashboard](Dashboard.png)
 
