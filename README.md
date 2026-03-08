@@ -1,7 +1,6 @@
 # MCU Cinematic Universe Data Warehouse and Analysis
 
-##Project Overview
-โปรเจกต์นี้เริ่มต้นจากการนำ Dataset ของภาพยนตร์ MCU มาทำการ **Data Modeling** ใหม่เพื่อเปลี่ยนจาก Flat Table ให้เป็นระบบ Relational Database เพื่อรองรับการวิเคราะห์ที่ซับซ้อน และนำไปสร้าง Interactive Dashboard เพื่อหา Insight ทางการเงินและคำวิจารณ์
+โปรเจกต์นี้ผมเริ่มต้นจากการนำ dataset ของภาพยนตร์ MCU มาจากเว็บ kaggles มาทำการ Data Modeling ใหม่เพื่อเปลี่ยนจาก flat table ให้เป็น relational database เพื่อรองรับการวิเคราะห์ที่ซับซ้อน และนำไปสร้าง interactive dashboard เพื่อหา insight ทางการเงินและคำวิจารณ์
 
 ## 1.Database Design (ER Diagram)
 ได้ทำการ **Normalization** เพื่อแยก Entity ออกเป็นตารางย่อย เพื่อลดความซ้ำซ้อนของข้อมูลและเพิ่มความสะดวกในการจัดการข้อมูล (Data Integrity)
