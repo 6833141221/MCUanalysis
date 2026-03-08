@@ -20,8 +20,8 @@
 ![MCU Analysis Dashboard](Dashboard.png)
 
 ### Key Insights :
- -**Financial Performance** Phase 3 เป็นช่วงที่ทำกำไรสูงสุดอย่างก้าวกระโดดเมื่อเทียบกับ phase อื่นๆ
- -**Critical Success** ภาพยนตร์ที่มีคะแนนจากฝั่ง audience สูงมักจะมีรายได้แบบ domestic box office สูงตามกัน
- -**Director Impact** สามารถระบุผู้กำกับที่คุม budget ได้อย่างมีประสิทธิภาพและสร้างผลตอบแทนได้ดีที่สุด
+ 1.**Financial Performance** Phase 3 เป็นช่วงที่ทำกำไรสูงสุดอย่างก้าวกระโดดเมื่อเทียบกับ phase อื่นๆ
+ 2.**Critical Success** ภาพยนตร์ที่มีคะแนนจากฝั่ง audience สูงมักจะมีรายได้แบบ domestic box office สูงตามกัน
+ 3.**Director Impact** สามารถระบุผู้กำกับที่คุม budget ได้อย่างมีประสิทธิภาพและสร้างผลตอบแทนได้ดีที่สุด
 
 > 🔗 [ลิ้ง tableau ครับ](https://public.tableau.com/app/profile/narawin.chotivit/viz/MCUanalysis_17728150843420/Dashboard1?publish=yes)
