@@ -2,7 +2,7 @@
 
 โปรเจกต์นี้ผมเริ่มต้นจากการนำ dataset ของภาพยนตร์ MCU มาจากเว็บ kaggles มาทำการ **Data Modeling** ใหม่เพื่อเปลี่ยนจากตารางเดียวให้เป็น relational database เพื่อรองรับการวิเคราะห์ที่ซับซ้อน และนำไปสร้าง interactive dashboard เพื่อหา insight ทางการเงินและคำวิจารณ์
 
-1. **Database Design (ER Diagram):**
+## 2.Database Design (ER Diagram)
 ทำการ Normalization เพื่อแยก Entity ออกเป็นตารางย่อย เพื่อลดความซ้ำซ้อนของข้อมูลและเพิ่มความสะดวกในการจัดการข้อมูล Data Integrity
 
 ![MCU ER Diagram](Er_Diagram.png)
@@ -12,7 +12,7 @@
 2. **One-to-One Relationship:** แยกตาราง 'finance' และ 'score' ที่เชื่อมกับ ตาราง 'movie'
 3. **Data Constraints:** มีการใช้ 'Primary Key', 'Foreign Key'
 
-## 2.Data Pipeline & SQL Techniques:**
+## 2.Data Pipeline & SQL Techniques
 ผมใช้ SQL ในการจัดการข้อมูลตั้งแต่ขั้นตอน Staging ไปจนถึงขั้นตอนสุดท้าย โดยมีเทคนิคที่สำคัญดังนี้:
 
 1. **Data Cleaning:** ใช้ 'REPLACE' และ 'TRIM' เพื่อกรองชื่อบุคคลและสัญลักษณ์พิเศษ
